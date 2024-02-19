@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--===============AOS====================-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/Asset2favicon.png" type="image/x-icon">
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    
+
+    <title>Responsive Headphones Website</title>
+  </head>
+
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Qamar</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#favorite" class="nav__link">Models</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#model" class="nav__link">Facts</a>
+            </li>
+          </ul>
+
+          <!-- Close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <!-- Toggle button -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== yMAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <img src="assets/img/3.png" alt="image" class="home__img" />
+
+            <h4 class="home__title">
+              <span>[</span>
+              <span></span>
+              <span>]</span>
+            </h4>
+
+            <div class="home__tooltip">
+              <img
+                src="assets/img/tooltip-right.svg"
+                alt="image"
+                class="home__tooltip-img"
+              />
+              <span class="home__tooltip-text">Bulan</span>
+            </div>
+          </div>
+
+          <a href="#" class="home__button button">
+            <i class="ri-play-circle-fill"></i>
+          </a>
+
+          <div class="home__social">
+            <span class="home__social-text">Follow us</span>
+
+            <div class="home__social-links">
+              <a href="#" target="_blank" class="home__social-link">
+                <i class="ri-facebook-circle-fill"></i>
+              </a>
+              <a href="#" target="_blank" class="home__social-link">
+                <i class="ri-instagram-fill"></i>
+              </a>
+              <a href="#" target="_blank" class="home__social-link">
+                <i class="ri-linkedin-box-fill"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <div class="section__title">ABOUT US</div>
+
+            <p class="about__description">
+              Kami menghadirkan sebuah website yang berfungsi sebagai pelaras
+              antara agama islam dan simbolnya yaitu bulan, dimana bulan adalah
+              salah satu bukti kekuasaan Allah
+            </p>
+
+            <a href="#" class="button">
+              Know More <i class="ri-information-fill"></i>
+            </a>
+          </div>
+
+          <img src="assets/img/2.png" alt="image" class="about__img" />
+        </div>
+      </section>
+
+      <!--==================== FAVORITE ====================-->
+      <section class="favorite section" id="favorite">
+        <h2 class="section__title">Jenis Bulan</h2>
+
+        <div class="favorite__container">
+          <div class="favorite__swiper swiper">
+            <div class="swiper-wrapper">
+              <article class="favorite__article swiper-slide">
+                <img
+                  src="assets/img/sabitawal.png"
+                  alt="image"
+                  class="favorite__img"
+                />
+                <span class="favorite__model">Sabit Awal</span>
+              </article>
+              <article class="favorite__article swiper-slide">
+                <img
+                  src="assets/img/separuhawal.png"
+                  alt="image"
+                  class="favorite__img"
+                />
+                <span class="favorite__model">Separuh Awal</span>
+              </article>
+              <article class="favorite__article swiper-slide">
+                <img
+                  src="assets/img/cembungawal.png"
+                  alt="image"
+                  class="favorite__img"
+                />
+                <span class="favorite__model">Cembung Awal</span>
+              </article>
+              <article class="favorite__article swiper-slide">
+                <img
+                  src="assets/img/purnama.png"
+                  alt="image"
+                  class="favorite__img"
+                />
+                <span class="favorite__model">Purnama</span>
+              </article>
+              <article class="favorite__article swiper-slide">
+                <img
+                  src="assets/img/cembungakhir.png"
+                  alt="image"
+                  class="favorite__img"
+                />
+                <span class="favorite__model">Cembung Akhir</span>
+              </article>
+              <article class="favorite__article swiper-slide">
+                <img
+                  src="assets/img/separuhakhir.png"
+                  alt="image"
+                  class="favorite__img"
+                />
+                <span class="favorite__model">Separuh Akhir</span>
+              </article>
+              <article class="favorite__article swiper-slide">
+                <img
+                  src="assets/img/sabitakhir.png"
+                  alt="image"
+                  class="favorite__img"
+                />
+                <span class="favorite__model">Sabit Akhir</span>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== MODEL ====================-->
+      <section class="model section" id="model">
+        <h2 class="section__title">FAKTA TENTANG BULAN DI ISLAM</h2>
+
+        <div class="model__container container grid">
+          <div class="model__content">
+            <img src="assets/img/2.png" alt="image" class="model__img" />
+
+            <div class="model__tooltip model__tooltip-1">
+              <img
+                src="assets/img/tooltip-right.svg"
+                alt="image"
+                class="model__tooltip-img"
+              />
+              <span class="model__tooltip-text">Simbol Kalender Hijiriah</span>
+            </div>
+
+            <div class="model__tooltip model__tooltip-2">
+              <img
+                src="assets/img/tooltip-right.svg"
+                alt="image"
+                class="model__tooltip-img"
+              />
+              <span class="model__tooltip-text">Tanda Kebesaran Allah</span>
+            </div>
+
+            <div class="model__tooltip model__tooltip-3">
+              <img
+                src="assets/img/tooltip-right.svg"
+                alt="image"
+                class="model__tooltip-img"
+              />
+              <span class="model__tooltip-text">Navigasi dalam Perjalanan</span>
+            </div>
+
+            <div class="model__tooltip model__tooltip-4">
+              <img
+                src="assets/img/tooltip-right.svg"
+                alt="image"
+                class="model__tooltip-img"
+              />
+              <span class="model__tooltip-text">Signifikansi dalam Ibadah</span>
+            </div>
+          </div>
+
+          <a href="#" class="model__button button">
+            شهر
+            <i class="ri-play-circle-fill"></i>
+          </a>
+        </div>
+      </section>
+
+      <!--==================== SPONSOR ====================-->
+    
+      <section class="about section" id="models">
+         <div class="about__container container grid">
+           <div class="about__data">
+             <div class="section__title">-Einsten</div>
+ 
+             <p class="about__description">
+               Ilmu Tanpa Agama, Buta
+             </p>
+           </div>
+ 
+           <img src="assets/img/einsten.png" alt="image" class="about__img" />
+         </div>
+       </section>
+
+       
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <div>
+          <a href="#" class="footer__logo">Qomar</a>
+        </div>
+
+        <div class="footer__data grid">
+          <div>
+            <h3 class="footer__title">Products</h3>
+
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__link">Lunar</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer__link">Σελήνη</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer__link">Moon</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer__link">Bulan</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Support</h3>
+
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__link">Help</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer__link">Register</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer__link">Updates</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer__link">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__group">
+            <form action="" class="footer__form">
+              <input type="email" placeholder="Email" class="footer__input" />
+              <button class="footer__button button">
+                subscribe <i class="ri-send-plane-fill"></i>
+              </button>
+            </form>
+
+            <div class="footer__social">
+              <a href="#" target="_blank" class="footer__social-link">
+                <i class="ri-facebook-circle-fill"></i>
+              </a>
+              <a href="#" target="_blank" class="footer__social-link">
+                <i class="ri-instagram-fill"></i>
+              </a>
+              <a href="#" target="_blank" class="footer__social-link">
+                <i class="ri-linkedin-box-fill"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <span class="footer__copy">
+        &#169; All Rights Reserved By Team Qomar
+      </span>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-s-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
